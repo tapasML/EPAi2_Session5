@@ -624,9 +624,9 @@ def playpoker(player1: 'list of tuple', player2: 'list of tuple') -> str:
     return winner       
         
     
-
-#print(createdeck_reg())
-#print(createdeck_lambda())
+'''
+print(createdeck_reg())
+print(createdeck_lambda())
 print(add_even_odd([1,2,4,5,6],[10,12,13,15,17,19]))
 print(stripvowels('tSai'))
 print(relu([2.0, 1,-0., 5 , -3.2]))
@@ -637,10 +637,10 @@ print(sum_even([1,2,3,4,5,6,7,-2]))
 print(findbiggestchar('23ABxFCDYZ'))
 print(add3rdNumber([1,2,3,4,5,6,7,8,9,10]))
 print(KA_numplates())
-'''print(state_numplates('AS',10,99))
+print(state_numplates('AS',10,99))
 print(state_numplates_partial('MH'))
 '''
-
+'''
 cards1=[('A', 'spades'),  ('10', 'spades'), ('K', 'spades'), ('Q', 'spades'), ('J', 'spades')]
 
 cards2=[('9', 'spades'),  ('10', 'spades'), ('K', 'spades'), ('Q', 'spades'), ('J', 'spades')]
@@ -678,7 +678,7 @@ cards11=[('10', 'spades'),  ('J', 'spades'), ('9', 'spades'), ('Q', 'spades')]
 cards11_1=[('6', 'hearts'),  ('6', 'spades'), ('6', 'diamonds'), ('6', 'clubs')]
 
 cards = cards01
-'''
+
 print('isRoyalFlush =',isRoyalFlush(cards))
 print('isStraightFlush =',isStraightFlush(cards))
 print('isFourOfaKind =', isFourOfaKind(cards))
@@ -692,15 +692,12 @@ print('isHighCard =', isHighCard(cards))
 print("\n\n")
 
 print('_tiebreak_sequence = ', _tiebreak_sequence(cards01, cards02))
-print('_tiebreak_two_pairs = ', _tiebreak_two_pairs(cards_tp_1, cards_tp_2))'''
+print('_tiebreak_two_pairs = ', _tiebreak_two_pairs(cards_tp_1, cards_tp_2))
 
 
-player1=cards11
-player2=cards11_1
 
 player1=[('3', 'spades'), ('5', 'clubs'), ('4', 'diamonds')]
 player2=[('7', 'spades'), ('9', 'clubs'), ('10', 'diamonds')]
 print('winner: ' + playpoker(player1, player2))
- 
-
+'''
 
