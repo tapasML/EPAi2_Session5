@@ -1,6 +1,6 @@
 # EPAi2_Session5
 
-# Assignment 1:
+# Assignment 1: (20 test cases)
 
 1. Write a single expression that includes lambda, zip and map functions to select create 52 cards in a deck - 50 pts
 
@@ -40,7 +40,7 @@
   
   
   
-# Assignment 2 
+# Assignment 2 (10 test cases)
 
 1.   Write a function using only list filter lambda that can tell whether a number is a Fibonacci number or not. You can use a pre-calculated list/dict to store fab numbers till 10000 PTS:100
 
