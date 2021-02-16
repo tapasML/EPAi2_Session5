@@ -172,7 +172,7 @@ def findswearwords(textfilename: str, swearwordfilename : str ='swearwords.txt')
      
     Return:   
          poetic words found in textfile'''  
-    return {x for x in  open(textfilename, "r").read().split(' ') if x in  open('swearwords.txt', "r").read().split('\n')}
+    return {x for x in  open(textfilename, "r",encoding="utf-8").read().split(' ') if x in  open('swearwords.txt', "r". encoding="utf-8").read().split('\n')}
    
    
 def sum_even(l: list)->list:
