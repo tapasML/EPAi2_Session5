@@ -44,7 +44,7 @@
 
 1.   Write a function using only list filter lambda that can tell whether a number is a Fibonacci number or not. You can use a pre-calculated list/dict to store fab numbers till 10000 PTS:100
 
-   isFibonacci(n: 'int >= 0') -> bool:  
+         isFibonacci(n: 'int >= 0') -> bool:  
   
   Note: Fibunacci number can be determined by checking if  5*n*n + 4 or 5*n*n - 4 is a perferct square, no need to store the series.  
 
@@ -71,7 +71,7 @@
         sigmoid(l: 'list of number') -> 'list of numbers between 0 and 1':
        
                
-      5 takes a small character string and shifts all characters by 5 (handle boundary conditions) tsai>>yxfn
+      5. takes a small character string and shifts all characters by 5 (handle boundary conditions) tsai>>yxfn
       
         charshift(string: str) -> str:   
         
