@@ -4,16 +4,17 @@
 
 1. Write a single expression that includes lambda, zip and map functions to select create 52 cards in a deck - 50 pts
 
-   createdeck_lambda() 
+        createdeck_lambda() 
 
 2. Write a normal function without using lambda, zip, and map function to create 52 cards in a deck - 50 pts
 
-   createdeck_reg()  : uses for loop
-   createdeck_LC : additional function using LC
+       createdeck_reg()  : uses for loop
+       
+       createdeck_LC : additional function using LC
 
 3. Write a function that, when given 2 sets of 3 or 4 or 5 cards (1 game can only have 3 cards with each player or 4 cards or 5 cards per player) (1 deck of cards only), (2 players only), can identify who won the game of poker (Links to an external site.)! - 150 pts
 
-   playpoker(player1: 'list of tuple', player2: 'list of tuple')
+       playpoker(player1: 'list of tuple', player2: 'list of tuple')
   
   function returns: 'player1' if player1 wins
                     'player2' if player2 wins
@@ -87,30 +88,30 @@
 4.  Using reduce function: 
 
     1. add only even numbers in a list
-    
-       sum_even(l: list)->list:
+       
+            sum_even(l: list)->list:
         
         
     2. find the biggest character in a string (printable ascii characters)
     
-       findbiggestchar(string: str)->str:
+            findbiggestchar(string: str)->str:
       
       
     3. adds every 3rd number in a list
     
-       add3rdNumber(l: 'list of numbers')->'int or float':
+            add3rdNumber(l: 'list of numbers')->'int or float':
       
      
     
         
 5.  Using randint, random.choice and list comprehensions, write an expression that generates 15 random KADDAADDDD number plates, where KA is fixed, D stands for a digit, and A stands for Capital alphabets. 10<<DD<<99 & 1000<<DDDD<<9999
 
-       KA_numplates()->'list of string':
+          KA_numplates()->'list of string':
       
       
 6.   Write the above again from scratch where KA can be changed to DL, and 1000/9999 ranges can be provided. Now use a partial function such that 1000/9999 are hardcoded, but KA can be provided
 
-        state_numplates(state: str, range_start:int = 1000, range_stop:int = 9999)->'list of string':
+         state_numplates(state: str, range_start:int = 1000, range_stop:int = 9999)->'list of string':
 
 
     
